@@ -70,7 +70,7 @@ def echo(update: Update, context: CallbackContext) -> None:
 def image(update: Update, context: CallbackContext) -> None:
     newFile = update.message.effective_attachment[-1].get_file()
     file_name = update.message.effective_attachment[-1]['file_unique_id']+ '.jpg'
-    newFile.download('image/'+file_name)
+    newFile.download('./image/'+file_name)
     update.message.reply_text("your image is downloaded in image folder!!!")
 
 
