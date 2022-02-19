@@ -22,13 +22,10 @@ $ pip install -r requirements.txt
 $ python bot.py
 ```
 ## Screenshots
-- song search example
 ![App Screenshot](https://i.ibb.co/fkd1Z6t/image-search.png)
 
-- chatting example
 ![App Screenshot](https://i.ibb.co/LPsfhr1/chatting.png)
 
-- image downloaded
 ![App Screenshot](https://i.ibb.co/zmFqMnv/Capture2.png)
 
 
