@@ -13,7 +13,7 @@ def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_markdown_v2(
         fr'Hi {user.mention_markdown_v2()}\!\
 you can use /info /help /svn command \
-/svn nameofsong : for songs',
+/svn nameofsong',
         reply_markup=ForceReply(selective=True),
     )
 
