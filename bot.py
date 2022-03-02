@@ -1,4 +1,4 @@
-from config import API_KEY
+from decouple import config
 from utility_function import giveAns
 import jiosaavn
 # telegram packages
@@ -76,7 +76,8 @@ def image(update: Update, context: CallbackContext) -> None:
 
 
 def main() -> None:
-    updater = Updater(API_KEY)
+    api_key = config("API_KEY")
+    updater = Updater(api_key)
     image_count = 0
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher

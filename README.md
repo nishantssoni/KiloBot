@@ -6,6 +6,10 @@ A telegram chatting bot which can download songs.
 - [x] can search and download songs.
 - [x] download image which is send to the bot for further processing.
 
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install packages.
@@ -16,7 +20,7 @@ $ pip install -r requirements.txt
 ```
 ## Usage
 - First make a telegram bot from botfather and generate your **API key**
-- place your API KEY in config.py file.
+- place your API KEY in [.env.sample](https://github.com/nishantssoni/KiloBot/blob/main/.env.sample) and rename file to `.env`.
 
 ```
 $ python bot.py

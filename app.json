@@ -1,0 +1,16 @@
+{
+  "name": "KiloBot",
+  "description": "A telegram chatting bot which can download songs.",
+  "repository": "https://github.com/nishantssoni/KiloBot",
+  "env": {
+    "API_KEY": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+}
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
